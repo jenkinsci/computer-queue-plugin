@@ -14,13 +14,7 @@
   <url>https://wiki.jenkins-ci.org/display/JENKINS/Computer+queue+plugin</url>
   <name>Computer-queue-plugin</name>
   
-  <developers>
-    <developer>
-      <id>lvotypko</id>
-      <name>Lucie Votypkova</name>
-      <email>lvotypko@redhat.com</email>
-    </developer>
-  </developers>
+  <developers/>
  
 <build>
     <plugins>
