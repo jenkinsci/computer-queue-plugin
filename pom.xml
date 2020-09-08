@@ -8,12 +8,12 @@
 
   <groupId>jenkins.ci.plugins.computerqueue</groupId>
   <artifactId>computer-queue-plugin</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <packaging>hpi</packaging>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/Computer+queue+plugin</url>
   <name>computer-queue-plugin</name>
   
-  <developers/>
+  <developers />
 
   <properties>
     <jenkins.version>2.150</jenkins.version>
@@ -38,6 +38,7 @@
     <connection>scm:git:ssh://github.com/jenkinsci/computer-queue-plugin.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/jenkinsci/computer-queue-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/computer-queue-plugin</url>
+    <tag>computer-queue-plugin-1.5</tag>
   </scm>
   
 </project>
