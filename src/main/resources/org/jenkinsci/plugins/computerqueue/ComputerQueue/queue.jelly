@@ -35,7 +35,7 @@
                   <j:if test="${stuck}">
                     &#160;
                     <a href="http://wiki.jenkins-ci.org/display/JENKINS/Executor+Starvation">
-                      <img src="${imagesURL}/16x16/hourglass.gif" height="16" width="16"/>
+                      <l:icon class="icon-hourglass icon-sm"/>
                     </a>
                   </j:if>
                 </j:when>
@@ -46,7 +46,7 @@
             </td>
             <td class="pane" width="16" align="center" valign="middle">
               <j:if test="${item.hasCancelPermission()}">
-                <a href="${rootURL}/queue/item/${item.id}/cancelQueue"><img src="${imagesURL}/16x16/stop.png" alt="cancel this build" height="16" width="16"/></a>
+                <a href="${rootURL}/queue/item/${item.id}/cancelQueue"><l:icon class="icon-stop icon-sm" alt="cancel this build"/></a>
               </j:if>
              </td>
           </tr>
